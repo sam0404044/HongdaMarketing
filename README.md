@@ -2,13 +2,17 @@
 
 宏達補習班課程諮詢表單頁。
 
+GitHub Pages 網址：
+
+https://sam0404044.github.io/HongdaMarketing/
+
 ## Preview
 
-![表單預覽](web/assets/preview.png)
+![表單預覽](assets/preview.png)
 
 主要檔案：
 
-- `web/index.html`
-- `web/styles.css`
-- `web/script.js`
-- `web/assets/study-hero.png`
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/study-hero.png`
