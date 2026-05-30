@@ -200,6 +200,11 @@ textarea {
   background: #167448;
 }
 
+.primary-button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
 .result {
   margin: 0 24px 24px;
   padding: 16px;
