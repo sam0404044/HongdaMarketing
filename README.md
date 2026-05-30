@@ -27,4 +27,8 @@ https://sam0404044.github.io/HongdaMarketing/
 6. 執行身分選「我」。
 7. 存取權選「任何人」。
 8. 部署後複製 Web App URL。
-9. 將 `script.js` 與 `web/script.js` 裡的 `PASTE_APPS_SCRIPT_WEB_APP_URL_HERE` 換成 Web App URL，再 commit / push。
+9. 將 Web App URL 填入 `script.js` 與 `web/script.js`。
+
+目前使用的 Web App URL：
+
+https://script.google.com/macros/s/AKfycbwATu9KjHr5TtnCrfb7CILFosYt6HazOrUDwfdrc1qUBUm-GANmWj6RyLozm9VhrEdbOg/exec

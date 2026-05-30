@@ -1,4 +1,4 @@
-const GOOGLE_SCRIPT_URL = "PASTE_APPS_SCRIPT_WEB_APP_URL_HERE";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwATu9KjHr5TtnCrfb7CILFosYt6HazOrUDwfdrc1qUBUm-GANmWj6RyLozm9VhrEdbOg/exec";
 
 const form = document.querySelector("#consultForm");
 const result = document.querySelector("#result");
