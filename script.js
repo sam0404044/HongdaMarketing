@@ -1,4 +1,4 @@
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwATu9KjHr5TtnCrfb7CILFosYt6HazOrUDwfdrc1qUBUm-GANmWj6RyLozm9VhrEdbOg/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzkoL3bdQOCozg9GcjcCNDnK_8KiBvjRaGPMRSjJROFweqNZ4s638N2Px-Z8cD_3pSduw/exec";
 
 const form = document.querySelector("#consultForm");
 const result = document.querySelector("#result");

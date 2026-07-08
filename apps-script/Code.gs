@@ -41,6 +41,11 @@ function doGet() {
     .setMimeType(ContentService.MimeType.TEXT);
 }
 
+function setup() {
+  const spreadsheet = SpreadsheetApp.openById(SPREADSHEET_ID);
+  getOrCreateSheet_(spreadsheet);
+}
+
 function getOrCreateSheet_(spreadsheet) {
   let sheet = spreadsheet.getSheetByName(SHEET_NAME);
   if (!sheet) {
