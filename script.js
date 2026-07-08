@@ -38,6 +38,20 @@ function buildPayload() {
   };
 }
 
+function trackConsultFormSubmit(payload) {
+  if (typeof window.gtag !== "function") {
+    return;
+  }
+
+  window.gtag("event", "consult_form_submit", {
+    form_name: "宏達補習班課程諮詢表",
+    grade: payload.grade,
+    subjects: payload.subjects,
+    call_time: payload.callTime,
+    source: payload.source,
+  });
+}
+
 async function submitToSheet(payload) {
   if (GOOGLE_SCRIPT_URL.includes("PASTE_APPS_SCRIPT_WEB_APP_URL_HERE")) {
     throw new Error("尚未設定 Google Apps Script Web App URL。");
@@ -71,6 +85,7 @@ form.addEventListener("submit", async (event) => {
 
   try {
     await submitToSheet(payload);
+    trackConsultFormSubmit(payload);
     result.textContent = [
       "已送出諮詢資料，請留意後續電話聯絡。",
       "",
